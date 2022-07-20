@@ -13,4 +13,6 @@ if ($Request->geturl() === "/") {
     require "../app/views/Homepage.php";
 } else if ($Request->geturl()  === "/contact") {
     require "../app/views/Contact.php";
+} else {
+    echo "Error 404";
 }
