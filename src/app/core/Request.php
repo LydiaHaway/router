@@ -1,5 +1,5 @@
 <?php
-class Router
+class Request
 {
     private $url;
 
