@@ -2,9 +2,9 @@
 
 //echo phpinfo();
 
-require "../app/core/Request.php";
+require "../app/core/Router.php";
 
-$Request = new Request;
+$Request = new Router;
 
 
 if ($Request->geturl() === "/") {
